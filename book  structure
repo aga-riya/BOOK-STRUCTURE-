@@ -1,0 +1,13 @@
+struct Book {
+    var title: String
+    var pages: Int
+    var rate: Double
+    var author: String
+}
+let mybook = Book(title:"Digital electronics",pages:900,rate:1200.00,author:"Anand kumar")
+let yrbook = Book(title:"Data structures",pages:1005,rate:1500.00,author:"Seymour lipschutiz")
+let usbook = Book(title:"Applied mathematics",pages:1100,rate:550,author:"B.s.grewal")
+
+print(mybook)
+print(yrbook)
+print(usbook)
